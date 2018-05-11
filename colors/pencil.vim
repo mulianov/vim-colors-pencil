@@ -118,7 +118,7 @@ else
   let s:bg              = s:white
   let s:bg_subtle       = s:light_gray
   let s:bg_very_subtle  = s:lighter_gray
-  let s:norm            = s:light_black
+  let s:norm            = s:black
   let s:norm_subtle     = s:lighter_black
   let s:purple          = s:dark_purple
   let s:cyan            = s:dark_cyan
@@ -182,7 +182,7 @@ hi! link Float            Constant
 call s:h("Identifier",    {"fg": s:dark_blue})
 hi! link Function         Identifier
 
-call s:h("Statement",     {"fg": s:green})
+call s:h("Statement",     {"fg": s:dark_yellow})
 hi! link Conditonal       Statement
 hi! link Repeat           Statement
 hi! link Label            Statement

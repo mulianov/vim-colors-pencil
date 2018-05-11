@@ -386,3 +386,9 @@ else
   hi link GitGutterChange             LineNr
   hi link GitGutterChangeDelete       LineNr
 endif
+
+" Buftabline
+hi BufTabLineHidden ctermbg=grey ctermfg=black
+hi BufTabLineCurrent ctermbg=white ctermfg=black
+
+

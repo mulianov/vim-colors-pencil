@@ -391,4 +391,6 @@ endif
 hi BufTabLineHidden ctermbg=grey ctermfg=black
 hi BufTabLineCurrent ctermbg=white ctermfg=black
 
+" Better Whitespace
+highlight ExtraWhitespace ctermbg=red 
 
